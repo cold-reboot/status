@@ -1,0 +1,38 @@
+[
+  {
+    "name": "VidContext API",
+    "url": "https://api.vidcontext.com/health",
+    "icon": "https://icons.duckduckgo.com/ip3/api.vidcontext.com.ico",
+    "slug": "vid-context-api",
+    "status": "down",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 0,
+    "timeDay": 0,
+    "timeWeek": 0,
+    "timeMonth": 0,
+    "timeYear": 0,
+    "dailyMinutesDown": {}
+  },
+  {
+    "name": "VidContext Website",
+    "url": "https://www.vidcontext.com",
+    "icon": "https://icons.duckduckgo.com/ip3/www.vidcontext.com.ico",
+    "slug": "vid-context-website",
+    "status": "down",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 0,
+    "timeDay": 0,
+    "timeWeek": 0,
+    "timeMonth": 0,
+    "timeYear": 0,
+    "dailyMinutesDown": {}
+  }
+]
