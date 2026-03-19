@@ -1,0 +1,43 @@
+owner: cold-reboot
+repo: status
+
+sites:
+  - name: VidContext API
+    url: https://api.vidcontext.com/health
+    method: GET
+    expectedStatusCodes:
+      - 200
+
+  - name: VidContext Website
+    url: https://www.vidcontext.com
+    method: GET
+    expectedStatusCodes:
+      - 200
+
+status-website:
+  cname: status.vidcontext.com
+  logoUrl: https://www.vidcontext.com/favicon.svg
+  name: VidContext Status
+  introTitle: "**VidContext** is up and running"
+  introMessage: This is the status page for the VidContext API and website. We monitor uptime every 5 minutes.
+  theme: dark
+
+workflowSchedule:
+  uptime: "*/5 * * * *"
+  responseTime: "*/5 * * * *"
+  updates: "0 0 * * *"
+  graphs: "0 0 * * *"
+
+commitMessages:
+  statusChange: "$SITE_NAME is $STATUS ($RESPONSE_CODE)"
+  degradedPerformance: "$SITE_NAME has degraded performance ($RESPONSE_TIME)"
+  scheduleRecovery: "Scheduled maintenance for $SITE_NAME completed"
+
+i18n:
+  activeIncidents: Current Issues
+  pastIncidents: Past Issues
+  pastIncidentsResolved: All issues resolved.
+  liveStatus: Live Status
+  allSystemsOperational: All systems operational
+  notAllSystemsOperational: Not all systems are operational
+  incidentReport: Incident Report
